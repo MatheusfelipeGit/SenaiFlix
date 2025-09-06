@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAIFLIX - filmes e séries</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="../assets/styles/global.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html">SENAIFLIX</a>
+        <img id="menu-btn" class="hamburguer-menu" src="../assets/icons/material-symbols_menu (1).png" alt="">
+        <nav>
+            <a href="#">Início</a>
+            <a href="#titulo-filmes">Filmes</a>
+            <a href="#titulo-series">Séries</a>
+
+        </nav>
+        <nav class="menu-mobile" id="menu-mobile">
+            <a href="#">Início</a>
+            <a href="#titulo-filmes">Filmes</a>
+            <a href="#titulo-series">Séries</a>
+
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="div-banner">
+                <h2>Assista agora!</h2>
+                <P>
+                    Ao saber qque tem câncer, um professor passa a fabricar drogas...
+                </P>
+            </div>
+        </section>
+        <div class="inputs">
+
+            <div class="pesquisa">
+                <label for="pesquisar">Pesquise por filmes e/ou séries: </label>
+                <input type="text" placeholder="Insira um título" id="pesquisar">
+
+            </div>
+            <div class="filtro" >
+                <label for="genero">Filtrar por gênero</label>
+                <select name="genero" id="genero">
+                    <option selected value="">Selecione um gênero</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comédia">Comédia</option>
+                    <option value="Terror">terror</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Suspense">Suspense</option>
+                    <option value="ficção">ficção</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Aventura">Aventura</option>
+                    <option value="Animação">Animação</option>
+                    <option value="Romance">Romance</option>
+                    <option value="nao sei">nao sei</option>
+                    <option value="nao sabemos">nao sabemos</option>
+                </select>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
